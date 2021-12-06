@@ -2,6 +2,12 @@
 
 pragma solidity ^0.8.9;
 
+import "https://github.com/devzbillarius/bproject_solidity/blob/main/lib/safeMath.sol";
+import "https://github.com/devzbillarius/bproject_solidity/blob/main/lib/ownable.sol";
+import "https://github.com/devzbillarius/bproject_solidity/blob/main/lib/interface.sol";
+import "https://github.com/devzbillarius/bproject_solidity/blob/main/lib/context.sol";
+
+
 contract  MAKECOIN is Context, IERC20, Ownable {
     using SafeMath for uint256;
 
