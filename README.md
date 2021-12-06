@@ -1,2 +1,2 @@
-# bproject_solidity
+# SOLIDITY
 SOLIDITY IERC20 v 0.8.9
