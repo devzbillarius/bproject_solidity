@@ -1,4 +1,6 @@
+// SPDX-License-Identifier:MIT
 
+pragma solidity ^0.8.9;
 
 contract  MAKECOIN is Context, IERC20, Ownable {
     using SafeMath for uint256;
