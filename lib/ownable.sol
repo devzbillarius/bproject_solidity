@@ -1,4 +1,6 @@
+// SPDX-License-Identifier:MIT
 
+pragma solidity ^0.8.9;
 
 contract Ownable is Context{
     address private _owner;
